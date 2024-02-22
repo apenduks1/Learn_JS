@@ -1,14 +1,14 @@
 //Створити змінну, яка містить рядок з вашим ім'ям та прізвищем. Використовуючи метод .length, вивести в консоль кількість символів у рядку.
 
-const nameSurname1 = ("Заблоцький Костянтин")
-console.log(nameSurname1.length)
+const nameSurname1 = "Заблоцький Костянтин";
+console.log(nameSurname1.length);
 
 //Створити змінну, яка містить рядок з вашим ім'ям. Використовуючи метод .toUpperCase(), перетворити рядок у верхній регістр та вивести результат в консоль.
 
-const name = ("Kostya")
-console.log(name.toUpperCase)
+const name = "Kostya";
+console.log(name.toUpperCase);
 
 //Створити змінну, яка містить рядок з вашим ім'ям та прізвищем. Використовуючи метод .indexOf(), знайти і вивести в консоль позицію, на якій знаходиться пробіл між ім'ям та прізвищем.
 
-const nameSurname2 = ("Заблоцький Костянтин")
-console.log(nameSurname2.indexOf( ))
+const nameSurname2 = "Заблоцький Костянтин";
+console.log(nameSurname2.indexOf(" "));
