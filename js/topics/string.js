@@ -109,4 +109,4 @@ console.log(string1.indexOf(blacklistedWord1))
 const string2 = 'Найбільший РОЗПРОДАЖ цього тижня, не пропустіть!';
 console.log(string2.indexOf(blacklistedWor2))
 const string3 = 'Рекламна кампанія #jsIsAwesome';
-console.log(string3.indexOf(""))
+console.log(string3.indexOf("Рекламна"))
