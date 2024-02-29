@@ -93,20 +93,18 @@ console.log(text1.trim());
 
 //Створи змінну яка буде зберігати рядок “Ваш баланс поповнено на 1”. Додай в кінець рядка довільну кількість нулів. Довжину рядка дізнайся за допомогою властивості.
 
-let text2 =  "Ваш баланс поповнено на 1"
-const newText = `${text2}.00`
-console.log(newText)
-console.log(newText.length)
+let text2 = "Ваш баланс поповнено на 1";
+const newText = `${text2}.00`;
+console.log(newText);
+console.log(newText.length);
 
+const blacklistedWord1 = "спам";
+const blacklistedWord2 = "розпродаж";
 
+const string1 = "Привіт, я Ілон Маск, це не спам, пропоную тобі мільйон!";
+console.log(string1.indexOf(blacklistedWord1));
 
-const blacklistedWord1 = 'спам';
-const blacklistedWord2 = 'розпродаж';
-
-const string1 = 'Привіт, я Ілон Маск, це не спам, пропоную тобі мільйон!';
-console.log(string1.indexOf(blacklistedWord1))
-
-const string2 = 'Найбільший РОЗПРОДАЖ цього тижня, не пропустіть!';
-console.log(string2.indexOf(blacklistedWor2))
-const string3 = 'Рекламна кампанія #jsIsAwesome';
-console.log(string3.indexOf("Рекламна"))
+const string2 = "Найбільший РОЗПРОДАЖ цього тижня, не пропустіть!";
+console.log(string2.indexOf(blacklistedWor2));
+const string3 = "Рекламна кампанія #jsIsAwesome";
+console.log(string3.indexOf("Рекламна"));

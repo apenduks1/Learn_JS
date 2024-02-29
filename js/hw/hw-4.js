@@ -1,4 +1,5 @@
 "use strict";
+
 //Вивести result в консоль. Перевірити тип змінної result= 5+5+’5’.
 let result = `5+5+’5’`;
 console.log(typeof result);
