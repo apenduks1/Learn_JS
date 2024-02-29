@@ -3,7 +3,7 @@
 const btn = document.querySelector(".btn");
 const p = document.querySelector(".paragraph");
 btn.addEventListener("click", () => {
-  btn = p;
+  btn.textContent = p;
 });
 
 
@@ -12,5 +12,5 @@ btn.addEventListener("click", () => {
 const list = document.querySelector(".list")
 const item1 = list.childNodes
 item1.addEventListener("click", () => {
-    item1 = "new text";
+    item1.te = "new text";
   });
