@@ -12,5 +12,5 @@ btn.addEventListener("click", () => {
 const list = document.querySelector(".list")
 const item1 = list.childNodes
 item1.addEventListener("click", () => {
-    item1.te = "new text";
+    item1.textContent = "new text";
   });
