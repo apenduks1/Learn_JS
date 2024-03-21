@@ -1,6 +1,5 @@
 "use strict";
 
-
 //Сумма покупки зберігається в змінній payment - отримати з інпуту
 
 //const balance = document.querySelector(".input");
