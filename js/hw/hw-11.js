@@ -177,4 +177,4 @@ function caculator() {
     }
   }
 
-  btn.addEventListener("click", );
+  btn.addEventListener("click", caculator);
