@@ -42,6 +42,6 @@ for(let i = 1; i < numbers.length; i++){
 const numbers1 = [51, 18, 13, 24, 7, 85, 19 , 8 , 9, 100];
 for(o of numbers1){
     if(o % 2 == 0){
-        console.log()
+        console.log(o)
     }
 }
