@@ -61,7 +61,7 @@ let totalSum = 0;
 const fn = function fn(input) {
   if (typeof input == number) {
     for (o of input) {
-      let totalSum = +o;
+     totalSum = +o;
     }
     return totalSum
   } else {
