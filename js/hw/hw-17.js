@@ -56,7 +56,9 @@ const movie = {
   ratingCheck(){
 if(this.rating >= 8){
 
-} e
+} else{
+    
+}
   }
 
 }
